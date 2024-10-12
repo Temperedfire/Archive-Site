@@ -5,7 +5,7 @@ show_date: true
 title: "Alurwaktu, Inner Voice, 2023."
 date: 2023-09-17
 img: posts/Visual-Art/alurwaktu_Inner-Voice.png
-tags: [visual art, photography, collage, mixed media, digital]
+tags: [visual art, photography, analog, digitized]
 category: visual art
 author: 
 description: ""
