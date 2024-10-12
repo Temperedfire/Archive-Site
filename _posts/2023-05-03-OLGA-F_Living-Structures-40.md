@@ -21,5 +21,4 @@ description: ""
 
  <div class="page-separator"></div>
 
-Id: 32773
-<br>Collected 2023-05-03. Additional data on [Objkt](https://objkt.com/tokens/fxparams/32773).
+Collected 2023-05-03. Additional data on [Objkt](https://objkt.com/tokens/fxparams/32773).

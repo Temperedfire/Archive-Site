@@ -419,9 +419,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: var(--font2-regular);
   line-height: 1;
+}
+
+.page.content {
+margin: auto 20px;
 }
 
 img {
@@ -538,7 +542,7 @@ svg {
 .wrapper {
   width: 1080px;
   max-width: 90%;
-  margin: 0.75em auto 0.75em;
+  margin: 0.95em auto 0.95em;
   position: relative;
 }
 ::-moz-selection {
@@ -831,7 +835,7 @@ svg.menu-icon-house {
 .post-card-image {
   display: block;
   width: 100%;
-  min-height: 350px; /* Adjust as per your requirement */
+  min-height: 362px; /* Adjust as per your requirement */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1504,6 +1508,7 @@ img + small, img + br + small {
   color: var(--text)
 }
 
+
 .header-page .page-date {
   text-align: center;
   font-size: 14px;
@@ -1915,7 +1920,7 @@ a.post-list-title {
 }
 a.read-more {
     color: var(--grey2);
-    text-decoration:none
+    text-decoration:none;
 }
 a.read-more:hover {
     text-decoration:underline;
@@ -2055,14 +2060,27 @@ a.read-more:hover {
     margin-bottom: 10px;
   }
   .header-page h1 {
-    font-size: 2.5rem;
-    margin: 0 0 10px;
+    font-size: 1.7em;
+    margin: auto 0 25px;
   }
-  .header-page .page-date {
+
+  a.post-list-title {
+    font-size: 1.65em;
+    margin: 15px auto 20px;
+  }
+
+  .tag-master h1 {
+    width: 35vw;
+    font-size: 2.2em;
+    margin: auto 0 25px;
+  }
+
+  .page-date {
     font-size: 14px;
   }
   .main-header .logo {
   width: 100%;
+  margin-bottom: -18px;
 }
   .main-header .logo a {
     font-size: 21px;

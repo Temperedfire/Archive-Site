@@ -21,5 +21,4 @@ description: ""
 
  <div class="page-separator"></div>
 
-Id: 10125
-<br>Collected 2023-04-13, 16th edition of 16. Additional data on [Objkt](https://objkt.com/tokens/versum_items/10125).
+Collected 2023-04-13, 16th edition of 16. Additional data on [Objkt](https://objkt.com/tokens/versum_items/10125).

@@ -21,5 +21,4 @@ description: ""
 
  <div class="page-separator"></div>
 
-Id: KT19o5bq3PdVyPySxwj5bfvfWxiG8YeQNSPi/0
-<br>Collected 2023-04-29, 8th edition of 15. Additional data on [Objkt](https://objkt.com/tokens/KT19o5bq3PdVyPySxwj5bfvfWxiG8YeQNSPi/0).
+Collected 2023-04-29, 8th edition of 15. Additional data on [Objkt](https://objkt.com/tokens/KT19o5bq3PdVyPySxwj5bfvfWxiG8YeQNSPi/0).

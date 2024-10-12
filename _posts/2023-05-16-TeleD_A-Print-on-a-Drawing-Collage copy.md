@@ -20,5 +20,4 @@ description: ""
 
  <div class="page-separator"></div>
 
-Id: 612587
-<br>Collected 2023-08-15, 4th of edition of 5. Additional data on [Objkt](https://objkt.com/tokens/hicetnunc/612587).
+Collected 2023-08-15, 4th of edition of 5. Additional data on [Objkt](https://objkt.com/tokens/hicetnunc/612587).

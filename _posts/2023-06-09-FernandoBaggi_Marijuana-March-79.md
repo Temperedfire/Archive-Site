@@ -20,5 +20,4 @@ description: ""
 
  <div class="page-separator"></div>
 
-Id: 1601905
-<br>Collected 2023-06-09. Additional data on [Objkt](https://objkt.com/tokens/fxhash/1601905).
+Collected 2023-06-09. Additional data on [Objkt](https://objkt.com/tokens/fxhash/1601905).

@@ -20,5 +20,4 @@ description: ""
 
  <div class="page-separator"></div>
 
-Id: KT1ArQNsUtwSBDdwsL9a2Z4GG86uzpxboUsb/19
-<br>Collected 2023-09-01, 3rd edition of 27. Women's Museum's "Girls Gang" art event. Additional data on [Objkt](https://objkt.com/tokens/KT1ArQNsUtwSBDdwsL9a2Z4GG86uzpxboUsb/19).
+Collected 2023-09-01, 3rd edition of 27. Women's Museum's "Girls Gang" art event. Additional data on [Objkt](https://objkt.com/tokens/KT1ArQNsUtwSBDdwsL9a2Z4GG86uzpxboUsb/19).

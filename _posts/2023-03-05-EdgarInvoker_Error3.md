@@ -20,5 +20,4 @@ description: ""
 
  <div class="page-separator"></div>
 
-Id: 94495
-<br>Collected 2023-03-05 from DesignCollector, 3rd edition of 10. Additional data on [Objkt](https://objkt.com/tokens/hicetnunc/94495).
+Collected 2023-03-05 from DesignCollector, 3rd edition of 10. Additional data on [Objkt](https://objkt.com/tokens/hicetnunc/94495).

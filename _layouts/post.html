@@ -25,7 +25,7 @@ layout: default
         </div>
         {% include sidebar.html context="post" class="side" id="sidebar" %}
         {% if page.toc %}{% include sidebar-toc.html %}{% endif %}
-        {{page.content | markdownify}}
+        <div class="page.content">{{page.content | markdownify}}</div>
         {% include sidebar.html context="post" class="inline" id="post-end" %}
         <div class="separator"></div>
         {% include recent-post.html %}

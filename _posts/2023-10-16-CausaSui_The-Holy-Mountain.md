@@ -23,5 +23,4 @@ description: ""
 
  <div class="page-separator"></div>
 
-Id: KT1KbYvGLrDyGFQqRkmdFCkopycHssqb5JLt/128
-<br>Collected 2023-10-16. Additional data on [Objkt](https://objkt.com/tokens/KT1KbYvGLrDyGFQqRkmdFCkopycHssqb5JLt/128).
+Collected 2023-10-16. Additional data on [Objkt](https://objkt.com/tokens/KT1KbYvGLrDyGFQqRkmdFCkopycHssqb5JLt/128).
