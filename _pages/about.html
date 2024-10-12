@@ -1,0 +1,31 @@
+---
+layout: menu-page
+title: About
+permalink: about:output_ext
+---
+{% include calculate_relative_base.html %}
+{% include escape-404.html %}
+
+<div class="small-wrapper">
+  <div class="about-container">
+    <section class="about-body">
+      The ✱SPC Archive is a program of documentation and showcase for creative contemporaries. An extensive index of visual
+      arts, visual communication, writes, objects, and various spaces. Accompanying the ever-growing collection is a dedicated
+      branch to independent studio releases, collaborative showings, and events.
+
+      <div class="separator"></div>
+
+      <ul class="contact-list">
+      {% if site.twitter %}
+        <li class="twitter"><a class="twitter" href="https://twitter.com/{{site.twitter}}" target="_blank">𝕏</a></li>
+      {% endif %}
+      {% if site.twitter %}
+      <li class="instagram"><a class="instagram" href="https://instagram.com/{{site.instagram}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
+    {% endif %}
+      {% if site.email %}
+        <li class="email"><a class="email" href="mailto:{{site.email}}"><i class="fa fa-envelope-o"></i></a></li>
+      {% endif %}
+      </ul>
+    </section> <!-- End About Body-->
+  </div> <!-- End About Container -->
+</div> <!-- End Small Wrapper -->

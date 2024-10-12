@@ -1,0 +1,50 @@
+{% include calculate_relative_base.html %}
+{% include escape-404.html %}
+
+<head>
+	<meta charset="utf-8">
+	<title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
+	<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{% include SEO.html %}
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#311e3e">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#311e3e">
+	<!-- Google Fonts -->
+	<link rel="preconnect" href="https://fonts.gstatic.com" />
+	<style>
+/* latin */
+
+@font-face {
+    font-family: "TASA Orbiter Display Semibold";
+    src: url('/css/fonts/TASA Orbiter/TASAOrbiterDisplay-SemiBold.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter Regular";
+    src: url('/css/fonts/TASA Orbiter/Inter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter Light";
+    src: url('/css/fonts/Inter/Inter-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+	</style>
+	<!-- <link href="https://fonts.googleapis.com/css?family=Lora:400,600|Source+Sans+Pro:200,400,700" rel="stylesheet"> -->
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="{{ relativebase }}assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="{{ relativebase }}assets/css/main.css">
+	{% include favicon.html %}
+	{% if page.layout == 'post' %}
+	<link rel="stylesheet" href="{{ relativebase }}assets/css/highlighter/{{ site.highlight_theme }}.css">
+	{% endif %}
+</head>

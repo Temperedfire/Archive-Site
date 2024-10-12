@@ -1,0 +1,25 @@
+---
+layout: menu-page
+title: Index
+permalink: tags:output_ext
+---
+{% include calculate_relative_base.html %}
+{% include get-site-tags.html %}
+<section class="blog-tags">
+  <h1>All Categories</h1>
+  
+  <div class="tags-page-content">
+  {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+    {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+    <div class="list-group">
+      <div class="list-group-title"><a id="{{ this_word | cgi_escape }}" href="{{ relativebase }}tag.html?tag={{ this_word | url_encode }}" class="tag {{ include.class }}">{{ this_word }}</a></div>
+      <div>
+      {% for post in site.tags[this_word] %}{% if post.title != null %}
+      {% include remove_double_slash.html %}
+
+      {% endif %}{% endfor %}
+       </div>
+    </div>
+  {% endunless %}{% endfor %}
+  </div>
+</section>
